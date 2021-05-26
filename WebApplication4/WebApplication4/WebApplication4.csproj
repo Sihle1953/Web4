@@ -1,0 +1,182 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\site.css" />
+    <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\js\site.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\LICENSE" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <Content Remove="wwwroot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net5.0\ModuleAspProject.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\ModuleAspProject.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\ModuleAspProject.RazorTargetAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Products\HandleDelete.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Products\HandleEdit.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Products\index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Products\List.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\WebApplication4.RazorTargetAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net5.0\ModuleAspProject.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net5.0\project.razor.json" />
+    <Content Include="obj\Debug\net5.0\staticwebassets\ModuleAspProject.StaticWebAssets.xml" />
+    <Content Include="obj\Debug\netcoreapp2.1\WebApplication4.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\ModuleAspProject.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\WebApplication4.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ModuleAspProject.csproj" />
+    <None Include="obj\Debug\net5.0\apphost.exe" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.assets.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.csproj.CopyComplete" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.dll" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.pdb" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.RazorCoreGenerate.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.TagHelpers.input.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.TagHelpers.output.cache" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.Views.dll" />
+    <None Include="obj\Debug\net5.0\ModuleAspProject.Views.pdb" />
+    <None Include="obj\Debug\net5.0\ref\ModuleAspProject.dll" />
+    <None Include="obj\Debug\net5.0\staticwebassets\ModuleAspProject.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.assets.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.dll" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.pdb" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.RazorCoreGenerate.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.TagHelpers.input.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.TagHelpers.output.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.Views.dll" />
+    <None Include="obj\Debug\netcoreapp2.1\WebApplication4.Views.pdb" />
+    <None Include="obj\ModuleAspProject.csproj.EntityFrameworkCore.targets" />
+    <None Include="obj\ModuleAspProject.csproj.nuget.g.props" />
+    <None Include="obj\ModuleAspProject.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\WebApplication4.csproj.nuget.cache" />
+    <None Include="obj\WebApplication4.csproj.nuget.g.props" />
+    <None Include="obj\WebApplication4.csproj.nuget.g.targets" />
+    <None Include="Views\Home\About.cshtml" />
+    <None Include="Views\Home\Contact.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_CookieConsentPartial.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
